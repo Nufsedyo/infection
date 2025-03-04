@@ -1,0 +1,36 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+h1 {
+    color: red;
+}
+
+p {
+    font-size: 18px;
+}
+
+#canvas-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+#cure-btn {
+    background-color: red;
+    color: white;
+    font-size: 20px;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    margin-top: 20px;
+    transition: 0.3s;
+}
+
+#cure-btn:hover {
+    background-color: darkred;
+}
